@@ -9,7 +9,7 @@ if version > 580
 endif
 
 set t_Co=256
-let g:colors_name = "softera1"
+let g:colors_name = "softera"
 
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
@@ -102,3 +102,7 @@ hi conceal guifg=#ff0000 guibg=#b4addf guisp=#b4addf gui=NONE ctermfg=196 ctermb
 hi cursorim guifg=#ff0000 guibg=#b4addf guisp=#b4addf gui=NONE ctermfg=196 ctermbg=146 cterm=NONE
 hi colorcolumn guifg=NONE guibg=#f2edec guisp=#f2edec gui=NONE ctermfg=NONE ctermbg=255 cterm=NONE
 hi cursorlinenr guifg=#b4addf guibg=NONE guisp=NONE gui=NONE ctermfg=146 ctermbg=NONE cterm=NONE
+hi User1 cterm=None guifg=#646464 guibg=#b4addf
+hi User2 cterm=bold guifg=#646464 guibg=#b4addf
+hi User3 cterm=None guifg=#646464 guibg=#b4addf
+hi User4 cterm=None guifg=#646464 guibg=#b4addf
